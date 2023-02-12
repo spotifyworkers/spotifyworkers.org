@@ -3,6 +3,7 @@ const sass = require("sass")
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("*.jpg")
   eleventyConfig.addPassthroughCopy("*.webp")
+  eleventyConfig.addPassthroughCopy("CNAME")
 
   eleventyConfig.addTemplateFormats("scss")
   eleventyConfig.addExtension("scss", {
