@@ -1,9 +1,0 @@
-body {
-  margin: 0;
-  display: grid;
-  place-items: center;
-}
-
-img {
-  max-width: 100vw;
-}
