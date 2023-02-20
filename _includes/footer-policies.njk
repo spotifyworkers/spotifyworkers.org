@@ -2,10 +2,12 @@
   <h2>Policies</h2>
 
   <ul>
-    <li>
-      <a class="conduct" href="/policies/conduct">
-        Code of conduct
-      </a>
-    </li>
+    {% for policy in collections.policy -%}
+      <li>
+        <a class="conduct" href="{{ policy.permalink }}">
+          {{ policy.data.title }}
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </div>

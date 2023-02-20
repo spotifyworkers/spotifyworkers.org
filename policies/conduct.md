@@ -1,6 +1,6 @@
 ---
 title: Code of conduct
-tag: policy
+tags: policy
 layout: policy
 ---
 
