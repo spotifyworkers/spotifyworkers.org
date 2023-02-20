@@ -7,6 +7,8 @@
   </head>
   <body>
 
+    {% include "header.njk" %}
+
     <article class="policy">
       <h1 class="name">
         {{ title }}
@@ -15,6 +17,11 @@
         {{ content | safe }}
       </div>
     </article>
+
+    <footer>
+      {% include "footer-socials.njk" %}
+      {% include "footer-policies.njk" %}
+    </footer>
 
   </body>
 </html>
