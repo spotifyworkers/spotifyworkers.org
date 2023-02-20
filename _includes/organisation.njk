@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% for link in collections.stylesheet -%}<link rel="stylesheet" media="{{ link.data.media }}" href="{{ link.url }}" />{%- endfor %}
+    <title>{{ name }}</title>
+  </head>
+  <body>
+
+    {% include "header.njk" %}
+
+    <main class="organisation">
+      <h1 class="organisation-name">
+        {{ name }}
+      </h1>
+
+      <table class="organisation-facts">
+        {% for fname, fvalue in facts %}
+          <tr><th>{{ fname }}</th><td>{{ fvalue }}</td></tr>
+        {% endfor %}
+      </table>
+
+      <div class="organisation-content">
+        {{ content | safe }}
+      </div>
+    </main>
+
+    <footer>
+      {% include "footer-socials.njk" %}
+      {% include "footer-policies.njk" %}
+    </footer>
+
+  </body>
+</html>

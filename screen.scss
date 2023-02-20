@@ -306,3 +306,27 @@ footer {
 .press-link {
   color: royalblue;
 }
+
+.organisation {
+  width: min(calc(100vw - 32px), 32rem);
+}
+
+.organisation-name {
+  font-size: 2rem;
+}
+
+.organisation-facts {
+  background-color: azure;
+  width: min(calc(100vw - 32px), 32rem);
+  padding: 1rem 0;
+
+  th {
+    width: 8rem;
+  }
+}
+
+.organisation-content {
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
