@@ -1,11 +1,10 @@
-const { DateTime } = require("luxon");
 const sass = require("sass")
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("main.js")
-  eleventyConfig.addPassthroughCopy("**/*.jpg")
-  eleventyConfig.addPassthroughCopy("**/*.png")
-  eleventyConfig.addPassthroughCopy("*.webp")
+  eleventyConfig.addPassthroughCopy("images/*.jpg")
+  eleventyConfig.addPassthroughCopy("images/*.png")
+  eleventyConfig.addPassthroughCopy("images/*.webp")
   eleventyConfig.addPassthroughCopy("CNAME")
 
   eleventyConfig.addTemplateFormats("scss")

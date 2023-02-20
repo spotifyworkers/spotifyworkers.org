@@ -231,11 +231,11 @@ footer {
 .header-wrapper {
   display: grid;
   grid-template-areas:
-    ". . ."
-    "shuffle . name"
-    ". . .";
+    ". . . . ."
+    "shuffle . name . button"
+    ". . . . .";
 
-  grid-template-columns: 2rem 1rem auto;
+  grid-template-columns: 2rem 1rem auto auto 2rem;
   grid-template-rows: 1rem auto 1rem;
   align-items: center;
 
@@ -266,6 +266,71 @@ footer {
 .header-name-link {
   color: black;
   text-decoration: none;
+}
+
+.header-button {
+  grid-area: button;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+.header-button__image {
+  fill: darkslategray;
+  width: 100%;
+  height: 100%;
+
+  rect {
+    transform-origin: center center;
+    transition: all 128ms;
+  }
+
+  [aria-expanded="true"] & {
+    rect:nth-child(1) {
+      transform: rotate(45deg) translateY(32px) translateX(8px);
+    }
+
+    rect:nth-child(2) {
+      opacity: 0;
+    }
+
+    rect:nth-child(3) {
+      transform: rotate(135deg) translateY(-32px) translateX(-4px);
+    }
+  }
+}
+
+.burger-menu {
+  display: none;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #d60015;
+  color: white;
+  justify-content: center;
+}
+
+.burger-menu--open {
+  display: flex;
+}
+
+.burger-menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 0;
+  width: min(calc(100vw - 32px), 32rem);
+}
+
+.burger-menu-link {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .latest-press {
