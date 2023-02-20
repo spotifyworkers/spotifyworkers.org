@@ -2,7 +2,7 @@
 name: Spotify Workers Unionen
 tags: organisation
 layout: organisation
-permalink: /unionen
+permalink: /unionen/index.html
 facts:
   Founded: "2023-01-24"
   President: Henry Catalini Smith
