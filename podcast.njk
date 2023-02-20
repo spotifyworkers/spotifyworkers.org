@@ -10,11 +10,11 @@
 
     {% include "header.njk" %}
 
-    {% for episode in collections.episode | reverse | limit(0, 1) -%}
+     {% for episode in collections.episode | reverse | limit(0, 1) -%}
       <article class="episode-article episode-latest">
         <h1 class="episode-title episode-title-latest">
           <span class="episode-title-latest-prefix">
-            Latest Episode
+            Podcast
           </span>
           <span class="episode-title-latest-title">
             {{ episode.data.title }}
@@ -30,30 +30,34 @@
           loading="lazy"
         ></iframe>
 
-        <a class="archive-link" href="/podcast">
-          More podcast episodes
-        </a>
       </article>
     {% endfor %}
 
-    <section class="latest-press">
-      <h2>Latest Press</h2>
-    
-      {% for press in collections.press | reverse | limit(0, 1) -%}
-        <article class="press-hit">
-          <img
-            class="press-image"
-            alt="{{ press.data.image.alt }}"
-            src="{{ press.data.image.src }}"
-          />
-          <h3 class="press-title" >
-            <a class="press-link" href="{{ press.data.href }}" lang="{{ press.data.lang }}">
-              {{ press.data.title }}
-            </a>
+    <div class="previous-episodes">
+
+      <h2 class="previous-episodes-title">
+        Previous episodes
+      </h2>
+
+      {% for episode in collections.episode | reverse | limit(1, 999) -%}
+        <article class="episode-article episode-archive">
+          <h3 class="episode-title">
+            {{ episode.data.title }}
           </h3>
+
+          <iframe
+            class="episode-embed"
+            src="https://open.spotify.com/embed/episode/{{ episode.data.spotify }}"
+            frameBorder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+
         </article>
       {% endfor %}
-    </section>
+
+    </div>
 
     <footer>
       {% include "footer-socials.njk" %}

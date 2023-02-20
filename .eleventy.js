@@ -4,6 +4,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("main.js")
   eleventyConfig.addPassthroughCopy("*.jpg")
   eleventyConfig.addPassthroughCopy("*.png")
+  eleventyConfig.addPassthroughCopy("**/*.jpg")
+  eleventyConfig.addPassthroughCopy("**/*.png")
   eleventyConfig.addPassthroughCopy("*.webp")
   eleventyConfig.addPassthroughCopy("CNAME")
 

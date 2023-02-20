@@ -126,6 +126,13 @@ iframe {
   }
 }
 
+.archive-link {
+  color: deepskyblue;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .previous-episodes {
   width: min(calc(100vw - 2rem), 32rem);
   padding: 4rem 0;
@@ -247,4 +254,43 @@ footer {
 .header-name {
   grid-area: name;
   font-family: 'Prompt', sans-serif;
+}
+
+.latest-press {
+
+  h2 {
+    width: min(calc(100vw - 32px), 32rem);
+    margin: 4rem 0 2rem 0;
+    text-align: center;
+  }
+}
+
+.press-hit {
+  border: 1px solid gainsboro;
+  background: white;
+  padding: 2px 2px 8px 2px;
+  width: min(calc(100vw - 32px), 32rem);
+  display: grid;
+  grid-template-areas:
+    "image"
+    "."
+    "title";
+  grid-template-rows: min-content 1rem auto;
+  margin-bottom: 2rem;
+}
+
+.press-image {
+  grid-area: image;
+  max-width: 100%;
+}
+
+.press-title {
+  grid-area: title;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.press-link {
+  color: royalblue;
 }
