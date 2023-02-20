@@ -149,6 +149,7 @@ footer {
   padding: 10vh 0;
   display: flex;
   flex-direction: column;
+  row-gap: 4rem;
   align-items: center;
   width: 100%;
   
@@ -159,13 +160,6 @@ footer {
 }
 
 .social-icons {
-  width: min(calc(100vw - 32px), 32rem);
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
 
   a {
     display: flex;
@@ -207,4 +201,50 @@ footer {
     padding-left: 1.0rem;
   }
 
+}
+
+.footer-section {
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 0;
+    padding: 0;
+    width: min(calc(100vw - 32px), 32rem);
+  }
+}
+
+.header {
+  height: 4rem;
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-wrapper {
+  display: grid;
+  grid-template-areas:
+    ". . ."
+    "shuffle . name"
+    ". . .";
+
+  grid-template-columns: 2rem 1rem auto;
+  grid-template-rows: 1rem auto 1rem;
+  align-items: center;
+
+  max-height: 100%;
+  overflow: hidden;
+  width: min(calc(100vw - 32px), 32rem);
+}
+
+.header-shuffle {
+  grid-area: shuffle;
+  max-height: 100%;
+}
+
+.header-name {
+  grid-area: name;
+  font-family: 'Prompt', sans-serif;
 }
