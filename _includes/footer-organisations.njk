@@ -1,0 +1,13 @@
+<div class="footer-section">
+  <h2>Organisations</h2>
+
+  <ul>
+    {% for organisation in collections.organisation -%}
+      <li>
+        <a class="footer-link" href="{{ organisation.url }}">
+          {{ organisation.data.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

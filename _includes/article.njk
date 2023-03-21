@@ -4,20 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {% for link in collections.stylesheet -%}<link rel="stylesheet" media="{{ link.data.media }}" href="{{ link.url }}" />{%- endfor %}
     <script src="/main.js"></script>
-    <title>{{ title }}</title>
+    <title>{{ name }}</title>
   </head>
   <body>
 
     {% include "header.njk" %}
 
-    <article class="policy">
-      <h1 class="name">
-        {{ title }}
+    <main class="article">
+      <h1 class="article-title">
+        {{ name }}
       </h1>
-      <div class="content">
+
+      <div class="article-content">
         {{ content | safe }}
       </div>
-    </article>
+    </main>
 
     <footer>
       {% include "footer-organisations.njk" %}
