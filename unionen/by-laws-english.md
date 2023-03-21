@@ -18,7 +18,7 @@ When new workplaces are added between annual meetings, the board of the national
 
 ## § 2 The organisation of the club
 
-### Subection 1
+### Section 1
 
 The club's activity is organised through
 
