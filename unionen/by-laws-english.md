@@ -1,8 +1,12 @@
 ---
-name: Spotify Workers Unionen By-Laws
+name: Spotify Workers Unionen Supplemental By-Laws (English translation)
 layout: article
 permalink: /unionen/by-laws/index.html
 ---
+
+> **Note:** This is an unofficial translation of the [original by-laws in Swedish](by-laws-swedish).
+
+Supplemental by-laws for the Unionen club at the company: Spotify AB org.nr. 556703-7485
 
 These by-laws supplement the [Unionen by-laws](https://www.unionen.se/stadgar) §3.3-3.8
 

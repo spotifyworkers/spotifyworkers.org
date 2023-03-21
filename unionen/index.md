@@ -26,4 +26,7 @@ The board maintains a public calendar that members can subscribe to in order to 
 
 ## By-Laws
 
-The [full Spotify Workers Unionen by-laws](by-laws) are available online.
+Spotify Workers Unionen is regulated by the [Unionen by-laws](https://www.unionen.se/stadgar) paragraph §3.3 to 3.8 as well as these supplementary by-laws:
+
+- [Swedish original](by-laws-swedish)
+- [English translation](by-laws-english)
