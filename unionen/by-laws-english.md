@@ -1,7 +1,7 @@
 ---
 name: Spotify Workers Unionen Supplemental By-Laws (English translation)
 layout: article
-permalink: /unionen/by-laws/index.html
+permalink: /unionen/by-laws-english/index.html
 ---
 
 > **Note:** This is an unofficial translation of the [original by-laws in Swedish](by-laws-swedish).

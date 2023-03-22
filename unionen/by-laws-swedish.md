@@ -1,7 +1,7 @@
 ---
 name: Spotify Workers Unionen Supplemental By-Laws (Swedish original)
 layout: article
-permalink: /unionen/by-laws/index.html
+permalink: /unionen/by-laws-swedish/index.html
 ---
 
 Kompletterande stadgar för Unionenklubben på företaget: Spotify AB org.nr. 556703-7485
