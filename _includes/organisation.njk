@@ -15,11 +15,13 @@
         {{ name }}
       </h1>
 
+<!--
       <table class="organisation-facts">
         {% for fname, fvalue in facts %}
           <tr><th>{{ fname }}</th><td>{{ fvalue }}</td></tr>
         {% endfor %}
       </table>
+      -->
 
       <div class="organisation-content">
         {{ content | safe }}
@@ -27,6 +29,7 @@
     </main>
 
     <footer>
+      {% include "footer-organisations.njk" %}
       {% include "footer-socials.njk" %}
       {% include "footer-policies.njk" %}
     </footer>

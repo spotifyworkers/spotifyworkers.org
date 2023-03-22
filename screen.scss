@@ -183,10 +183,9 @@ footer {
   }
 }
 
-.conduct {
+.footer-link {
   width: min(calc(100vw - 32px), 32rem);
   font-weight: bold;
-  padding: 10vh 0;
 }
 
 .policy {
@@ -372,10 +371,29 @@ footer {
   color: royalblue;
 }
 
+.article,
 .organisation {
   width: min(calc(100vw - 32px), 32rem);
 }
 
+.article-title,
+.organisation-name {
+  height: 30vh;
+
+  font-size: 2rem;
+  @media (min-width: 32rem) {
+    font-size: 4rem;
+  }
+
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Prompt', sans-serif;
+  text-align: left;
+}
+
+.article-title,
 .organisation-name {
   font-size: 2rem;
 }
@@ -390,8 +408,9 @@ footer {
   }
 }
 
+.article-content,
 .organisation-content {
   padding: 1rem 0;
-  font-size: 1.1rem;
   line-height: 1.5rem;
 }
+
