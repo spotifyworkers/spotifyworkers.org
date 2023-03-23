@@ -1,0 +1,15 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+{% for link in collections.stylesheet -%}<link rel="stylesheet" media="{{ link.data.media }}" href="{{ link.url }}" />{%- endfor %}
+<script src="/main.js"></script>
+<title>
+  {% if name %}
+    {{ name }}
+  {% elseif title %}
+    {{ title }}
+  {% else %}
+    Spotify Workers
+  {% endif %}
+</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/spotifyworkers.webmanifest">

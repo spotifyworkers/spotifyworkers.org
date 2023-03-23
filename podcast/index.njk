@@ -1,10 +1,10 @@
+---
+title: Spotify Workers Podcast
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {% for link in collections.stylesheet -%}<link rel="stylesheet" media="{{ link.data.media }}" href="{{ link.url }}" />{%- endfor %}
-    <script src="/main.js"></script>
-    <title>Spotify Workers</title>
+    {% include "head.njk" %}
   </head>
   <body>
 
