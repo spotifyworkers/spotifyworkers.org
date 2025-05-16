@@ -4,59 +4,11 @@
     {% include "head.njk" %}
   </head>
   <body>
-
     {% include "header.njk" %}
-
-    {% for episode in collections.episode | reverse | limit(0, 1) -%}
-      <article class="episode-article episode-latest">
-        <h1 class="episode-title episode-title-latest">
-          <span class="episode-title-latest-prefix">
-            Latest Episode
-          </span>
-          <span class="episode-title-latest-title">
-            {{ episode.data.title }}
-          </span>
-        </h1>
-
-        <iframe
-          class="episode-embed"
-          src="https://open.spotify.com/embed/episode/{{ episode.data.spotify }}"
-          frameBorder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-
-        <a class="archive-link" href="/podcast">
-          More podcast episodes
-        </a>
-      </article>
-    {% endfor %}
-
-    <section class="latest-press">
-      <h2>Latest Press</h2>
-    
-      {% for press in collections.press | reverse | limit(0, 1) -%}
-        <article class="press-hit">
-          <img
-            class="press-image"
-            alt="{{ press.data.image.alt }}"
-            src="{{ press.data.image.src }}"
-          />
-          <h3 class="press-title" >
-            <a class="press-link" href="{{ press.data.href }}" lang="{{ press.data.lang }}">
-              {{ press.data.title }}
-            </a>
-          </h3>
-        </article>
-      {% endfor %}
-    </section>
-
+    {% include "placeholder.njk" %}
     <footer>
       {% include "footer-organisations.njk" %}
-      {% include "footer-socials.njk" %}
       {% include "footer-policies.njk" %}
     </footer>
-
   </body>
 </html>
