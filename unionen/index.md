@@ -10,6 +10,10 @@ permalink: /unionen/index.html
 Spotify Workers Unionen is a local employee organization in Sweden, representing Spotify employees who are Unionen members.
 This is the largest single group of union members at Spotify anywhere in the world.
 
+## Board members
+
+The club board consists of Jonas Sundberg (chair), Péter Tóth (vice chair), Federico Barabas, Abhinav Neelam and Alexander Takacs.
+
 ## Contact
 
 You can contact the Spotify Workers Unionen board by email at [unionen@spotifyworkers.org](mailto:unionen@spotifyworkers.org).
