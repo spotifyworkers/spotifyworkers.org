@@ -12,9 +12,11 @@ This is the largest single group of union members at Spotify anywhere in the wor
 
 [Read more about Unionen](https://www.unionen.se/in-english/this-is-unionen) and about [what membership in Unionen means](https://www.unionen.se/unionen-get-more-out-your-working-life-our-membership).
 
-## Board members
+## Elected representatives
 
-The club board consists of Jonas Sundberg (chair), Péter Tóth (vice chair), Federico Barabas, Abhinav Neelam and Alexander Takacs.
+The club board consists of Jonas Sundberg (chair), Péter Tóth (vice chair), Federico Barabas (secretary), Alexander Takacs (treasurer) and Abhinav Neelam.
+
+Filipe la Ruina and John Ching are the club's auditors for 2025.
 
 ## Contact
 
