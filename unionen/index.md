@@ -8,7 +8,9 @@ permalink: /unionen/index.html
 ## About
 
 Spotify Workers Unionen is a local employee organisation representing Spotify employees who are members of Unionen.
-This is the largest single group of union members at Spotify anywhere in the world. [Read more about Unionen](https://www.unionen.se/in-english/this-is-unionen) and about [what membership in Unionen means](https://www.unionen.se/unionen-get-more-out-your-working-life-our-membership).
+This is the largest single group of union members at Spotify anywhere in the world.
+
+[Read more about Unionen](https://www.unionen.se/in-english/this-is-unionen) and about [what membership in Unionen means](https://www.unionen.se/unionen-get-more-out-your-working-life-our-membership).
 
 ## Board members
 
