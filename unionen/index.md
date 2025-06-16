@@ -14,13 +14,21 @@ This is the largest single group of union members at Spotify anywhere in the wor
 
 ## Elected representatives
 
-The club board consists of Jonas Sundberg (chair), Péter Tóth (vice chair), Federico Barabas (secretary), Alexander Takacs (treasurer) and Abhinav Neelam.
+The club board consists of the following members:
+
+- Jonas Sundberg (chair)
+- Péter Tóth (vice chair)
+- Federico Barabas (secretary)
+- Alexander Takacs (treasurer)
+- Abhinav Neelam
 
 Filipe la Ruina and John Ching are the club's auditors for 2025.
 
 ## Contact
 
 You can contact the Spotify Workers Unionen board by email at [unionen@spotifyworkers.org](mailto:unionen@spotifyworkers.org).
+
+If you want to get in touch with the auditors, please use [unionen.auditors@spotifyworkers.org](mailto:unionen.auditors@spotifyworkers.org).
 
 ## Events
 
