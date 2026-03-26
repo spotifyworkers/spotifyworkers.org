@@ -12,17 +12,19 @@ This is the largest single group of union members at Spotify anywhere in the wor
 
 [Read more about Unionen](https://www.unionen.se/in-english/this-is-unionen) and about [what membership in Unionen means](https://www.unionen.se/unionen-get-more-out-your-working-life-our-membership).
 
+You can find [our activity plan for 2026 here.](https://docs.google.com/document/d/1gDiFiVaRMgSAAF2eUxdmkjoLZFvfqgfTbbPilPLieCU/edit?usp=sharing)
+
 ## Elected representatives
 
-The club board consists of the following members:
+The club board for 2026 consists of the following members:
 
-- Jonas Sundberg (chair)
-- Péter Tóth (vice chair)
-- Federico Barabas (secretary)
+- Péter Tóth (chair)
+- Jonas Sundberg (vice chair)
+- Abhinav Neelam (secretary)
 - Alexander Takacs (treasurer)
-- Abhinav Neelam
+- Iris Schaffer
 
-Filipe la Ruina and John Ching are the club's auditors for 2025.
+Filipe la Ruina is the club's auditor for 2026.
 
 ## Contact
 
