@@ -12,7 +12,7 @@ This is the largest single group of union members at Spotify anywhere in the wor
 
 [Read more about Unionen](https://www.unionen.se/in-english/this-is-unionen) and about [what membership in Unionen means](https://www.unionen.se/unionen-get-more-out-your-working-life-our-membership).
 
-You can find [our activity plan for 2026 here.](https://docs.google.com/document/d/1gDiFiVaRMgSAAF2eUxdmkjoLZFvfqgfTbbPilPLieCU/edit?usp=sharing)
+You can find the local club's [activity plan for 2026 here.](https://docs.google.com/document/d/1gDiFiVaRMgSAAF2eUxdmkjoLZFvfqgfTbbPilPLieCU/edit?usp=sharing)
 
 ## Elected representatives
 
